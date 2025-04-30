@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+</head>
+<body>
+    <div>
+        <form action="/upload/" method="post" enctype="multipart/form-data">
+            <h2>请上传文件</h2>
+            <input type="file" name="pic"><br>
+            <h3>请填写分类图像存储路径</h3>
+                轻度损伤：<input type="text" name="轻度损伤"> <br>
+                中度损伤：<input type="text" name="中度损伤"> <br>
+                重度损伤：<input type="text" name="重度损伤"> <br>
+            <input type="submit" value=" 提交 "><br>
+            <br>
+        </form>
+        <h4>填写请注意：</h4>
+        <ul>
+            <li>文件尽量以英文形式命名</li>
+            <li>填写的路径真实有效</li>
+            <li>提交后开始分类</li>
+        </ul>
+    </div>
+</body>
+</html>
